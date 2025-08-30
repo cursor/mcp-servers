@@ -1,0 +1,29 @@
+{
+  "name": "dbt Labs",
+  "description": "dbt CLI, Semantic Layer, and Discovery API.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "uvx",
+    "args": [
+      "dbt-mcp"
+    ],
+    "env": {
+      "DBT_MCP_HOST": "cloud.getdbt.com",
+      "MULTICELL_ACCOUNT_PREFIX": "optional-account-prefix",
+      "DBT_TOKEN": "your-service-token",
+      "DBT_PROD_ENV_ID": "your-production-environment-id",
+      "DBT_DEV_ENV_ID": "your-development-environment-id",
+      "DBT_USER_ID": "your-user-id",
+      "DBT_PROJECT_DIR": "/path/to/your/dbt/project",
+      "DBT_PATH": "/path/to/your/dbt/executable",
+      "DISABLE_DBT_CLI": "false",
+      "DISABLE_SEMANTIC_LAYER": "false",
+      "DISABLE_DISCOVERY": "false",
+      "DISABLE_REMOTE": "false"
+    }
+  }
+}

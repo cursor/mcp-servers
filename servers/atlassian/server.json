@@ -1,0 +1,16 @@
+{
+  "name": "Atlassian",
+  "description": "Project management and collaboration tools including Jira and Confluence.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "mcp-remote",
+      "https://mcp.atlassian.com/v1/sse"
+    ]
+  }
+}

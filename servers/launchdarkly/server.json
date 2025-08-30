@@ -1,0 +1,22 @@
+{
+  "name": "LaunchDarkly",
+  "description": "Feature flags as a service.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "--package",
+      "@launchdarkly/mcp-server",
+      "--",
+      "mcp",
+      "start",
+      "--api-key",
+      "api-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+    ]
+  }
+}

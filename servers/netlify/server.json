@@ -1,0 +1,16 @@
+{
+  "name": "Netlify",
+  "description": "Build and deploy web projects.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@netlify/mcp"
+    ]
+  }
+}

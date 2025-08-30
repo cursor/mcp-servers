@@ -1,0 +1,12 @@
+{
+  "name": "Notion",
+  "description": "All-in-one workspace for notes, docs, and project management.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.notion.com/mcp"
+  }
+}

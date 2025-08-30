@@ -1,0 +1,16 @@
+{
+  "name": "Railway",
+  "description": "Deploy apps, databases, and services.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@railway/mcp-server"
+    ]
+  }
+}

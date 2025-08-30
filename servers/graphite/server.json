@@ -1,0 +1,15 @@
+{
+  "name": "Graphite",
+  "description": "Create and manage stacked PRs.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "gt",
+    "args": [
+      "mcp"
+    ]
+  }
+}

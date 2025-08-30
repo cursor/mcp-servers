@@ -1,0 +1,17 @@
+{
+  "name": "Neon",
+  "description": "Manage Neon Postgres.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote",
+      "https://mcp.neon.tech/mcp"
+    ]
+  }
+}

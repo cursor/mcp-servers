@@ -1,0 +1,12 @@
+{
+  "name": "InstantDB",
+  "description": "Query and manage InstantDB.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.instantdb.com/mcp"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Stripe",
+  "description": "Payment processing APIs.",
+  "transport": [
+    "stdio",
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@stripe/mcp",
+      "--tools=all"
+    ],
+    "env": {
+      "STRIPE_SECRET_KEY": ""
+    }
+  }
+}

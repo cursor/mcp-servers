@@ -1,0 +1,12 @@
+{
+  "name": "Honeycomb",
+  "description": "Query observability data and SLOs.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.honeycomb.io/mcp"
+  }
+}

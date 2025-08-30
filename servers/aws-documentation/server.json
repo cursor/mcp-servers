@@ -1,0 +1,19 @@
+{
+  "name": "AWS Documentation",
+  "description": "Access AWS documentation, search, and get recommendations.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "uvx",
+    "args": [
+      "awslabs.aws-documentation-mcp-server@latest"
+    ],
+    "env": {
+      "FASTMCP_LOG_LEVEL": "ERROR",
+      "AWS_DOCUMENTATION_PARTITION": "aws"
+    }
+  }
+}

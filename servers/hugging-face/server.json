@@ -1,0 +1,12 @@
+{
+  "name": "Hugging Face",
+  "description": "Access the Hugging Face Hub and Gradio MCP Servers.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://hf.co/mcp"
+  }
+}

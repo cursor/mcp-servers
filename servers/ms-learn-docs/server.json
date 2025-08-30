@@ -1,0 +1,12 @@
+{
+  "name": "MS Learn Docs",
+  "description": "Search Microsoft docs.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://learn.microsoft.com/api/mcp"
+  }
+}

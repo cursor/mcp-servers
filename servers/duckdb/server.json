@@ -1,0 +1,20 @@
+{
+  "name": "DuckDB",
+  "description": "In-process SQL OLAP database for local analytics.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-motherduck",
+      "--db-path",
+      ":memory:"
+    ],
+    "env": {
+      "motherduck_token": ""
+    }
+  }
+}

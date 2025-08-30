@@ -1,0 +1,13 @@
+{
+  "name": "Linear",
+  "description": "Issue tracking and project management for development teams.",
+  "transport": [
+    "stdio",
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.linear.app/sse"
+  }
+}

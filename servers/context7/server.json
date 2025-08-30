@@ -1,0 +1,12 @@
+{
+  "name": "Context7",
+  "description": "Up-to-date code documentation.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.context7.com/mcp"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Figma",
+  "description": "Design and collaboration platform for teams.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "prompt": "<>\n    Download the latest version of the <a href=\"https://www.figma.com/downloads/\" target=\"_blank\">Figma desktop app</a> to host the Figma MCP server. Check out the official <a href=\"https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server\" target=\"_blank\">Figma setup guide</a> for installation instructions\n      </>",
+  "config": {
+    "url": "http://127.0.0.1:3845/mcp"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Shopify",
+  "description": "Shopify app development tools.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@shopify/dev-mcp@latest"
+    ]
+  }
+}

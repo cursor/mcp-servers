@@ -1,0 +1,20 @@
+{
+  "name": "Auth0",
+  "description": "Manage Auth0 resources.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@auth0/auth0-mcp-server",
+      "run"
+    ],
+    "env": {
+      "DEBUG": "auth0-mcp"
+    }
+  }
+}

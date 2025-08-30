@@ -1,0 +1,14 @@
+{
+  "name": "Playwright",
+  "description": "End-to-end browser testing.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "@playwright/mcp@latest"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+name: Request New MCP Server
+description: Suggest a developer-focused MCP server to add to our collection
+title: "[Server Request]: "
+labels: ["server-request", "enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request MCP servers focused on developer tools and services that enhance productivity and streamline development workflows.
+
+        This curated collection prioritizes servers providing significant value to the developer community. Not all requests are accepted.
+
+        Provide comprehensive details for evaluation.
+
+  - type: input
+    id: server-name
+    attributes:
+      label: Server Name
+      description: What's the name of the MCP server?
+      placeholder: e.g., "GitHub MCP Server"
+    validations:
+      required: true
+
+  - type: input
+    id: server-url
+    attributes:
+      label: Server URL/Repository
+      description: Link to the MCP server's documentation, repository, or official page
+      placeholder: https://github.com/example/mcp-server
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Briefly describe what this server does and how it helps developers
+      placeholder: This MCP server provides integration with... allowing developers to...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requirements Check
+      description: Verify the following about this server
+      options:
+        - label: Provides clear installation and configuration instructions
+          required: true
+        - label: Focused on developer tools/services (not consumer applications)
+          required: true
+        - label: Has appropriate icon or branding available
+          required: true
+
+  - type: textarea
+    id: config-json
+    attributes:
+      label: Configuration JSON
+      description: Provide the complete config object that will be used in server.json
+      placeholder: |
+        For command-based servers:
+        {
+          "command": "npx",
+          "args": ["-y", "@example/mcp-server"],
+          "env": {
+            "API_KEY": ""
+          }
+        }
+
+        For URL-based servers:
+        {
+          "url": "https://mcp.example.com/mcp"
+        }
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: oauth
+    attributes:
+      label: Authentication
+      options:
+        - label: This server uses OAuth authentication
+          required: false
+
+  - type: checkboxes
+    id: icon-attached
+    attributes:
+      label: Icon
+      options:
+        - label: I've attached a square SVG logo to this issue
+          required: true
+
+  - type: input
+    id: docs-url
+    attributes:
+      label: Documentation URL (if applicable)
+      description: Link to official setup/configuration documentation
+      placeholder: https://docs.example.com/mcp-server
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information that would help us evaluate this server?
+      placeholder: |
+        - Why would this be valuable for developers?
+        - Free tier or open source license?
+        - Special considerations or limitations?
+        - Link to official documentation
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Submission Guidelines
+      options:
+        - label: Read the [Contributing Guidelines](CONTRIBUTING.md)
+          required: true
+        - label: Searched existing issues and servers to avoid duplicates
+          required: true
+        - label: Server provides significant value to developer community
+          required: true

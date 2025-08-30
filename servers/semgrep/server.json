@@ -1,0 +1,12 @@
+{
+  "name": "Semgrep",
+  "description": "Scan code for security vulnerabilities.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.semgrep.ai/mcp"
+  }
+}

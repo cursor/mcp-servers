@@ -1,0 +1,16 @@
+{
+  "name": "MongoDB",
+  "description": "Manage MongoDB data and deployments.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mongodb-mcp-server"
+    ]
+  }
+}

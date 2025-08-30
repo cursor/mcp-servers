@@ -1,0 +1,19 @@
+{
+  "name": "Heroku",
+  "description": "Manage Heroku apps and resources.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@heroku/mcp-server"
+    ],
+    "env": {
+      "HEROKU_API_KEY": ""
+    }
+  }
+}

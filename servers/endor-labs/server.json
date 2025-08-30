@@ -1,0 +1,16 @@
+{
+  "name": "Endor Labs",
+  "description": "Security risk insights for code.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "endorctl",
+    "args": [
+      "ai-tools",
+      "mcp-server"
+    ]
+  }
+}

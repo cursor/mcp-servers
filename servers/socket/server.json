@@ -1,0 +1,12 @@
+{
+  "name": "Socket",
+  "description": "Analyze and secure dependencies.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.socket.dev/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Pipedream",
+  "description": "Connect to APIs and workflows.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.pipedream.net/<uuid>/<app>"
+  }
+}

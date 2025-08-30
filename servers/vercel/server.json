@@ -1,0 +1,12 @@
+{
+  "name": "Vercel",
+  "description": "Manage projects and deployments on Vercel.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.vercel.com"
+  }
+}

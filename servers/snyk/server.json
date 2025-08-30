@@ -1,0 +1,19 @@
+{
+  "name": "snyk",
+  "description": "Vulnerability scanning of your codebase.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "snyk@latest",
+      "mcp",
+      "-t",
+      "stdio"
+    ]
+  }
+}

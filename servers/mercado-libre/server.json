@@ -1,0 +1,15 @@
+{
+  "name": "Mercado Libre",
+  "description": "Access Mercado Libre docs.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.mercadolibre.com/mcp",
+    "headers": {
+      "Authorization": "Bearer AUTH_TOKEN"
+    }
+  }
+}

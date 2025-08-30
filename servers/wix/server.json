@@ -1,0 +1,12 @@
+{
+  "name": "Wix",
+  "description": "Build and manage Wix sites.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.wix.com/mcp"
+  }
+}

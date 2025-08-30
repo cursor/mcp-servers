@@ -1,0 +1,12 @@
+{
+  "name": "Plaid",
+  "description": "Access financial account data.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://api.dashboard.plaid.com/mcp/sse"
+  }
+}

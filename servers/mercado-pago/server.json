@@ -1,0 +1,15 @@
+{
+  "name": "Mercado Pago",
+  "description": "Access Mercado Pago docs.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.mercadopago.com/mcp",
+    "headers": {
+      "Authorization": "Bearer <ACCESS_TOKEN>"
+    }
+  }
+}
