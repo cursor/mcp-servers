@@ -6,6 +6,7 @@
     "sse"
   ],
   "icon": "./icon.svg",
+  "domains": ["linear.app"],
   "oauth": true,
   "config": {
     "url": "https://mcp.linear.app/sse"

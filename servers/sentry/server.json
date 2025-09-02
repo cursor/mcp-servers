@@ -4,6 +4,7 @@
   "transport": [
     "sse"
   ],
+  "domains": ["sentry.io"],
   "icon": "./icon.svg",
   "oauth": true,
   "config": {

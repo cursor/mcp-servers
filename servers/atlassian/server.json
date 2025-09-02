@@ -4,6 +4,7 @@
   "transport": [
     "sse"
   ],
+  "domains": ["atlassian.com"],
   "icon": "./icon.svg",
   "oauth": false,
   "config": {
