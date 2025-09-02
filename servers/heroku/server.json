@@ -5,6 +5,7 @@
     "stdio"
   ],
   "icon": "./icon.svg",
+  "domains": ["heroku.com"],
   "oauth": false,
   "config": {
     "command": "npx",
