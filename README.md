@@ -55,3 +55,9 @@ To add a server, see the [Contributing Guidelines](CONTRIBUTING.md).
 ## Setup
 
 Each server has its own configuration requirements. Refer to the individual server documentation for specific setup instructions.
+
+## Security
+
+MCP servers are manually <a href="https://github.com/cursor/mcp-servers/blob/main/CONTRIBUTING.md#review-process">reviewed</a> upon submission before including them in our curated list. We make a best effort to ensure that these servers are functional, but cannot guarantee their availability.
+
+<b>We cannot guarantee the security of these MCP servers beyond the initial review process.</b> We recommend performing your own security checks for trusting these MCP servers.
