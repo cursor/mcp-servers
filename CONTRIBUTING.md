@@ -49,4 +49,4 @@ We process requests as fast as possible, but can't promise any timeline.
 
 ## Questions?
 
-Check existing [issues](https://github.com/your-username/mcp-servers/issues) or submit via repository discussions.
+Check existing [issues](https://github.com/cursor/mcp-servers/issues) or submit via repository discussions.
