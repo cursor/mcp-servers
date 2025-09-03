@@ -118,7 +118,7 @@ body:
     attributes:
       label: Submission Guidelines
       options:
-        - label: Read the [Contributing Guidelines](CONTRIBUTING.md)
+        - label: Read the [Contributing Guidelines](https://github.com/cursor/mcp-servers/blob/main/CONTRIBUTING.md)
           required: true
         - label: Searched existing issues and servers to avoid duplicates
           required: true
