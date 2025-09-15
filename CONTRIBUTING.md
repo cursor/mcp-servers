@@ -18,11 +18,10 @@ Accepted MCP servers provide value to developers:
 
 ### Request a server
 
-Submit MCP servers via the [Server Request Template](https://github.com/cursor/mcp-servers/issues/new?template=server-request.yml). All technical integration and testing is handled for you.
-
-This collection is curated. Servers must be useful to developers and work with professional development tools.
-
-To help prioritize what gets added next, upvote existing requests.
+- Submit MCP servers via the [Server Request Template](https://github.com/cursor/mcp-servers/issues/new?template=server-request.yml). All technical integration and testing is handled for you.
+- This collection is curated. Servers must be useful to developers and work with professional development tools.
+- To help prioritize what gets added next, upvote existing requests.
+- By completing MCP onboarding, you grant us the right to display your company’s name and logo for identification and promotional purposes across our platform and materials
 
 ## Requirements
 
