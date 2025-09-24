@@ -18,6 +18,8 @@
   "atlassian",
   "duckdb",
   "browserbase",
+  "chrome-devtools",
+  "convex",
   "shopify",
   "snyk",
   "hugging-face",
