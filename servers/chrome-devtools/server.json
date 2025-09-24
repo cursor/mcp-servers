@@ -1,0 +1,14 @@
+{
+  "name": "Chrome DevTools",
+  "description": "Debug web pages directly in Chrome with DevTools debugging capabilities and performance insights.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "chrome-devtools-mcp@latest"
+    ]
+  }
+}
