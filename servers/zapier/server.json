@@ -1,10 +1,12 @@
 {
   "name": "Zapier",
-  "description": "Automate workflows between apps.",
+  "description": "Automate workflows with 30,000+ actions across 8,000+ apps. Build once, orchestrate everywhere.",
   "transport": [
-    "stdio"
+    "streamableHttp"
   ],
   "icon": "./icon.svg",
-  "oauth": false,
-  "prompt": "\"Each server is unique to the logged in user and requires setup. Click 'Continue' to go to the Zapier setup page and get started.\""
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.zapier.com/api/mcp/s/•••••••/mcp"
+  }
 }
