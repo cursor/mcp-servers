@@ -5,7 +5,7 @@
   "context7",
   "linear",
   "playwright",
-  "shadcn",
+  "shadcn/ui",
   "sentry",
   "vercel",
   "gitlab",
