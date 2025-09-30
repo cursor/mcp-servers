@@ -1,0 +1,10 @@
+{
+  "name": "Supabase",
+  "description": "Create and manage Supabase projects.",
+  "transport": ["sse"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.supabase.com/mcp"
+  }
+}
