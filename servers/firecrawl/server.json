@@ -1,0 +1,13 @@
+{
+  "name": "firecrawl",
+  "description": "The web crawling, scraping, and search API for AI",
+  "transport": ["sse"],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": ["-y", "firecrawl-mcp"],
+    "env": {
+      "FIRECRAWL_API_KEY": ""
+    }
+  }
+}
