@@ -1,0 +1,10 @@
+{
+  "name": "Replicate",
+  "description": "Search, discover, compare, and run AI models with a cloud API.",
+  "transport": ["sse"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.replicate.com/sse"
+  }
+}
