@@ -51,6 +51,7 @@ To add a server, see the [Contributing Guidelines](CONTRIBUTING.md).
 | **Plaid** | Access financial account data. | <a href="https://cursor.com/en/install-mcp?name=plaid&config=eyJ1cmwiOiJodHRwczovL2FwaS5kYXNoYm9hcmQucGxhaWQuY29tL21jcC9zc2UifQ%3D%3D" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
 | **Mercado Pago** | Access Mercado Pago docs. | <a href="https://cursor.com/en/install-mcp?name=mercado-pago&config=eyJ1cmwiOiJodHRwczovL21jcC5tZXJjYWRvcGFnby5jb20vbWNwIiwiaGVhZGVycyI6eyJBdXRob3JpemF0aW9uIjoiQmVhcmVyIDxBQ0NFU1NfVE9LRU4%2BIn19" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
 | **Mercado Libre** | Access Mercado Libre docs. | <a href="https://cursor.com/en/install-mcp?name=mercado-libre&config=eyJ1cmwiOiJodHRwczovL21jcC5tZXJjYWRvbGlicmUuY29tL21jcCIsImhlYWRlcnMiOnsiQXV0aG9yaXphdGlvbiI6IkJlYXJlciBBVVRIX1RPS0VOIn19" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
+| **Devopness** | Deploy apps and infra, to any cloud. Deterministic and reliable 🚀. | <a href="https://cursor.com/en/install-mcp?name=devopness&config=eyJ1cmwiOiJodHRwczovL21jcC5kZXZvcG5lc3MuY29tL21jcC8ifQ==" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
 
 ## Setup
 
