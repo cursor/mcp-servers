@@ -2,7 +2,7 @@
   "name": "Apify",
   "description": "Extract data from any website with thousands of scrapers, crawlers, and automations",
   "transport": [
-    "streamable"
+    "streamable-http"
   ],
   "icon": "./icon.svg",
   "oauth": true,
