@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "corridor": {
+      "transport": "http",
+      "url": "hhttps://app.corridor.dev/api/mcp"
+    }
+  }
+}
