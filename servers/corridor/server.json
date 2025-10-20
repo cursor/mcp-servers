@@ -1,8 +1,13 @@
 {
-  "mcpServers": {
-    "corridor": {
-      "transport": "http",
-      "url": "hhttps://app.corridor.dev/api/mcp"
-    }
+  "name": "Corridor",
+  "description": "Proactively enforce security guardrails to reduce vulnerabilities.",
+  "transport": [
+    "https"
+  ],
+  "domains": ["corridor.dev"],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://app.corridor.dev/api/mcp"
   }
 }
