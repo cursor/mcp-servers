@@ -1,0 +1,15 @@
+{
+  "name": "Prisma",
+  "description": "Manage Prisma Postgres databases, including creating new instances and running schema migrations.",
+  "transport": [
+    "stdio",
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.prisma.io/mcp"
+  }
+}
+
+
