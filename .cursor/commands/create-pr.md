@@ -1,0 +1,1 @@
+Use `gh` cli to createa a new PR that addresses a specific issue number
