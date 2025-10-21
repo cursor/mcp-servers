@@ -1,0 +1,12 @@
+{
+  "name": "ClickUp",
+  "description": "Project management and collaboration for teams & agents.",
+  "transport": [
+    "http"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.clickup.com/mcp"
+  }
+}
