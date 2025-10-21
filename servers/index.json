@@ -46,6 +46,7 @@
   "stripe",
   "paypal",
   "plaid",
+  "clickup",
   "mercado-pago",
   "mercado-libre",
   "corridor"
