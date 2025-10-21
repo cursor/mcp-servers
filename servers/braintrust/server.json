@@ -1,0 +1,13 @@
+{
+  "name": "Braintrust",
+  "description": "Access to the documentation, experiments, and logs in Braintrust.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://api.braintrust.dev/mcp"
+  }
+}
+
