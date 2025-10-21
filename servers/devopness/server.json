@@ -1,0 +1,10 @@
+{
+  "name": "Devopness",
+  "description": "DevOps Happiness: Deploy apps and infra, to any cloud. Deterministic and reliable 🚀",
+  "transport": ["streamable-http"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.devopness.com/mcp/"
+  }
+}
