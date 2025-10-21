@@ -1,0 +1,15 @@
+{
+  "name": "Render",
+  "description": "Manage your Render services.",
+  "transport": [
+    "streamable-http"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.render.com/mcp",
+    "headers": {
+      "Authorization": "Bearer <YOUR_API_KEY>"
+    }
+  }
+}
