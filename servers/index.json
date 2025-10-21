@@ -7,6 +7,7 @@
   "playwright",
   "shadcn/ui",
   "sentry",
+  "supabase",
   "vercel",
   "gitlab",
   "posthog",
@@ -45,7 +46,9 @@
   "stripe",
   "paypal",
   "plaid",
+  "clickup",
   "mercado-pago",
   "mercado-libre",
-  "firecrawl"
+  "firecrawl",
+  "corridor"
 ]
