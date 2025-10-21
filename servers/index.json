@@ -1,5 +1,4 @@
 [
-  "amplitude",
   "github",
   "notion",
   "figma",
@@ -50,8 +49,10 @@
   "stripe",
   "paypal",
   "plaid",
-  "mercado-pago",
-  "mercado-libre",
   "firecrawl",
-  "corridor"
+  "corridor",
+  "amplitude",
+  "astro",
+  "mercado-pago",
+  "mercado-libre"
 ]
