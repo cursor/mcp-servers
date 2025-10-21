@@ -1,5 +1,6 @@
 [
   "amplitude",
+  "astro",
   "github",
   "notion",
   "figma",
@@ -22,6 +23,7 @@
   "duckdb",
   "browserbase",
   "chrome-devtools",
+  "clickup",
   "convex",
   "shopify",
   "snyk",
@@ -48,7 +50,6 @@
   "stripe",
   "paypal",
   "plaid",
-  "clickup",
   "mercado-pago",
   "mercado-libre",
   "firecrawl",
