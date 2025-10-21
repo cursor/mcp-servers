@@ -1,0 +1,10 @@
+{
+  "name": "shadcn/ui",
+  "description": "Use the shadcn/ui MCP server to browse, search, and install components from registries.",
+  "transport": ["stdio"],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": ["shadcn@latest", "mcp"]
+  }
+}

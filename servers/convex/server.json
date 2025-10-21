@@ -1,0 +1,17 @@
+{
+  "name": "Convex",
+  "description": "Interact with your Convex deployment - query tables, run functions, manage environment variables, and analyze logs.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "convex@latest",
+      "mcp",
+      "start"
+    ]
+  }
+}
