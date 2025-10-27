@@ -1,0 +1,17 @@
+{
+  "name": "SAP Mobile Development Kit",
+  "description": "A Model Context Protocol (MCP) server for the SAP Mobile Development Kit (MDK). This MCP server provides AI agents with comprehensive MDK knowledge and tools. By combining best practice guidelines, project-aware context information, templates for creating new projects, and access to the MDK CLI tools, it enables AI agents to operate as MDK development experts.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@sap/mdk-mcp-server"
+    ],
+    "env": {}
+  }
+}
+
