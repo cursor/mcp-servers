@@ -1,0 +1,17 @@
+{
+  "name": "SAP Mobile Development Kit",
+  "description": "MCP server for SAP Mobile Development Kit with MDK knowledge and CLI tools.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@sap/mdk-mcp-server"
+    ],
+    "env": {}
+  }
+}
+

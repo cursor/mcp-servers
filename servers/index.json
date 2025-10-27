@@ -15,6 +15,7 @@
   "postman",
   "prisma",
   "mongodb",
+  "mdk",
   "dbt-labs",
   "atlassian",
   "duckdb",
