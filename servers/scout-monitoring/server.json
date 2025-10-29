@@ -1,0 +1,7 @@
+{
+  "scout-monitoring": {
+    "command": "docker",
+    "args": ["run", "--rm", "-i", "--env", "SCOUT_API_KEY", "scoutapp/scout-mcp-local"],
+    "env": { "SCOUT_API_KEY": "your_scout_api_key_here"}
+  }
+}
