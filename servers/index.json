@@ -60,5 +60,6 @@
   "webflow",
   "terraform",
   "vault",
-  "browser-use"
+  "browser-use",
+  "sanity"
 ]
