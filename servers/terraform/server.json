@@ -1,0 +1,29 @@
+{
+  "name": "terraform",
+  "description": "Generate and automate Terraform workflows.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "docker",
+    "args": [
+      "run",
+      "--rm",
+      "-i",
+      "-e",
+      "TFE_ADDRESS",
+      "-e",
+      "TFE_TOKEN",
+      "-e",
+      "ENABLE_TF_OPERATIONS",
+      "hashicorp/terraform-mcp-server:latest"
+    ],
+    "env": {
+      "TFE_ADDRESS": "",
+      "TFE_TOKEN": "",
+      "ENABLE_TF_OPERATIONS": "false"
+    }
+  }
+}
