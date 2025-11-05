@@ -1,6 +1,6 @@
 # MCP Servers
 
-A curated collection of Model Context Protocol (MCP) servers for various services and tools.
+A curated collection of Model Context Protocol (MCP) servers for various services and tools. 
 
 To add a server, see the [Contributing Guidelines](CONTRIBUTING.md).
 
@@ -68,13 +68,8 @@ To add a server, see the [Contributing Guidelines](CONTRIBUTING.md).
 | **vault** | Store and manage secrets. | <a href="https://cursor.com/en/install-mcp?name=vault&config=eyJjb21tYW5kIjoiZG9ja2VyIHJ1biAtLXJtIC1pIC1lIFZBVUxUX0FERFIgLWUgVkFVTFRfVE9LRU4gLWUgVkFVTFRfTkFNRVNQQUNFIGhhc2hpY29ycC92YXVsdC1tY3Atc2VydmVyOmxhdGVzdCIsImVudiI6eyJWQVVMVF9BRERSIjoiIiwiVkFVTFRfVE9LRU4iOiIiLCJWQVVMVF9OQU1FU1BBQ0UiOiIifX0%3D" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
 | **Browser Use** | The Browser Use MCP server provides Cursor agents access to browser-use documentation. This gives AI assistants deep context about the browser-use library when helping you write code. | <a href="https://cursor.com/en/install-mcp?name=browser-use&config=eyJ1cmwiOiJodHRwczovL2RvY3MuYnJvd3Nlci11c2UuY29tL21jcCJ9" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
 | **Sanity** | Create, query, and manage Sanity content, releases, datasets, and schemas. | <a href="https://cursor.com/en/install-mcp?name=sanity&config=eyJ1cmwiOiJodHRwczovL21jcC5zYW5pdHkuaW8ifQ%3D%3D" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
+| **Devopness** | Deploy apps and infra, to any cloud. Deterministic and reliable 🚀. | <a href="https://cursor.com/en/install-mcp?name=devopness&config=eyJ1cmwiOiJodHRwczovL21jcC5kZXZvcG5lc3MuY29tL21jcC8ifQ==" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
 
 ## Setup
 
 Each server has its own configuration requirements. Refer to the individual server documentation for specific setup instructions.
-
-## Security
-
-MCP servers are manually <a href="https://github.com/cursor/mcp-servers/blob/main/CONTRIBUTING.md#review-process">reviewed</a> upon submission before including them in our curated list. We make a best effort to ensure that these servers are functional, but cannot guarantee their availability.
-
-<b>We cannot guarantee the security of these MCP servers beyond the initial review process.</b> We recommend performing your own security checks for trusting these MCP servers.
