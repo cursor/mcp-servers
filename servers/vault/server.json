@@ -1,0 +1,29 @@
+{
+  "name": "vault",
+  "description": "Store and manage secrets.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "docker",
+    "args": [
+      "run",
+      "--rm",
+      "-i",
+      "-e",
+      "VAULT_ADDR",
+      "-e",
+      "VAULT_TOKEN",
+      "-e",
+      "VAULT_NAMESPACE",
+      "hashicorp/vault-mcp-server:latest"
+    ]
+  },
+  "env": {
+    "VAULT_ADDR": "",
+    "VAULT_TOKEN": "",
+    "VAULT_NAMESPACE": ""
+  }
+}
