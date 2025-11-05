@@ -1,0 +1,17 @@
+{
+  "name": "SAP Mobile Development Kit",
+  "description": "SAP Mobile Development Kit tools and templates.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@sap/mdk-mcp-server"
+    ],
+    "env": {}
+  }
+}
+

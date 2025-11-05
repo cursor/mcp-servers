@@ -15,6 +15,7 @@
   "heroku",
   "postman",
   "prisma",
+  ["SAP", ["cap", "fiori", "mdk", "ui5"]],
   "mongodb",
   "dbt-labs",
   "atlassian",
@@ -57,5 +58,9 @@
   "mercado-libre",
   "render",
   "azure-devops",
-  "webflow"
+  "webflow",
+  "terraform",
+  "vault",
+  "browser-use",
+  "sanity"
 ]
