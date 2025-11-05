@@ -59,5 +59,6 @@
   "azure-devops",
   "webflow",
   "terraform",
-  "vault"
+  "vault",
+  "browser-use"
 ]
