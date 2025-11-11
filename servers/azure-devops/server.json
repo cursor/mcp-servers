@@ -1,0 +1,19 @@
+{
+  "name": "Azure DevOps",
+  "description": "Interact with Azure DevOps work items, pull requests, builds, and releases.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@azure-devops/mcp",
+      "{organization}"
+    ]
+  },
+  "documentation": "https://github.com/microsoft/azure-devops-mcp/blob/main/docs/GETTINGSTARTED.md"
+}
+

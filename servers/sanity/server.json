@@ -1,0 +1,13 @@
+{
+  "name": "Sanity",
+  "description": "Create, query, and manage Sanity content, releases, datasets, and schemas.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.sanity.io"
+  }
+}
+

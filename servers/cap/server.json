@@ -1,0 +1,17 @@
+{
+  "name": "CAP",
+  "description": "SAP Cloud Application Programming Model development.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@cap-js/mcp-server"
+    ],
+    "env": {}
+  }
+}
+

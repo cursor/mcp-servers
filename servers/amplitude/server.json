@@ -1,0 +1,13 @@
+{
+  "name": "Amplitude",
+  "description": "Behavior analytics and experimentation platform for product data insights.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["amplitude.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.amplitude.com/mcp"
+  }
+}

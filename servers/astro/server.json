@@ -1,0 +1,13 @@
+{
+  "name": "Astro docs server",
+  "description": "This server provides up-to-date access to the official Astro documentation.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.docs.astro.build/mcp"
+  }
+}
+
