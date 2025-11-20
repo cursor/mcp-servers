@@ -2,16 +2,12 @@
   "name": "GitLab",
   "description": "DevSecOps platform for code, CI/CD, and security.",
   "transport": [
-    "stdio"
+    "http"
   ],
   "icon": "./icon.svg",
   "oauth": false,
   "docs": "https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/",
   "config": {
-    "command": "npx",
-    "args": [
-      "mcp-remote",
-      "https://your-gitlab-instance.com/api/v4/mcp"
-    ]
+    "url": "https://your-gitlab-instance.com/api/v4/mcp"
   }
 }
