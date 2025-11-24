@@ -6,6 +6,7 @@
   "playwright",
   "shadcn/ui",
   "sentry",
+  "salesforce-dx",
   "supabase",
   "vercel",
   "gitlab",
