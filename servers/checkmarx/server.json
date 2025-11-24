@@ -1,0 +1,13 @@
+{
+  "name": "Checkmarx",
+  "description": "A secure gateway that bridges AI-powered development assistants with the Checkmarx One security platform.",
+  "transport": [
+    "http"
+  ],
+  "domains": ["checkmarx.net"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://<tenant base uri>/api/security-mcp/mcp"
+  }
+}
