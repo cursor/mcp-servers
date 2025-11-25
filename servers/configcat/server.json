@@ -1,0 +1,20 @@
+{
+  "name": "ConfigCat",
+  "description": "Feature flag and remote config service.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@configcat/mcp-server"
+    ],
+    "env": {
+      "CONFIGCAT_API_USER": "YOUR_API_USER",
+      "CONFIGCAT_API_PASS": "YOUR_API_PASSWORD"
+    }
+  }
+}
