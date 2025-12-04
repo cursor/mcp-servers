@@ -1,0 +1,19 @@
+{
+  "name": "Airwallex Developer MCP",
+  "description": "Provides Cursor with tools to assist developers integrating with Airwallex APIs - Search Airwallex documentation & interact with the sandbox environment for testing and simulation.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@airwallex/developer-mcp@latest"
+    ],
+    "env": {
+      "AIRWALLEX_SANDBOX_CLIENT_ID": "",
+      "AIRWALLEX_SANDBOX_API_KEY": ""
+    }
+  }
+}
