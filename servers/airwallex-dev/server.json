@@ -1,6 +1,6 @@
 {
-  "name": "Airwallex Developer MCP",
-  "description": "Provides Cursor with tools to assist developers integrating with Airwallex APIs - Search Airwallex documentation & interact with the sandbox environment for testing and simulation.",
+  "name": "Airwallex Developer",
+  "description": "Tools to assist developers integrating with the Airwallex platform - Search documentation & interact with the sandbox environment for testing and simulation.",
   "transport": [
     "stdio"
   ],
