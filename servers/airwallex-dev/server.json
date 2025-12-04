@@ -1,0 +1,19 @@
+{
+  "name": "Airwallex Developer",
+  "description": "Tools to assist developers integrating with the Airwallex platform - Search documentation & interact with the sandbox environment for testing and simulation.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@airwallex/developer-mcp@latest"
+    ],
+    "env": {
+      "AIRWALLEX_SANDBOX_CLIENT_ID": "",
+      "AIRWALLEX_SANDBOX_API_KEY": ""
+    }
+  }
+}
