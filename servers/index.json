@@ -4,7 +4,7 @@
   "context7",
   "linear",
   "playwright",
-  "shadcn/ui",
+  "shadcn",
   "sentry",
   "salesforce-dx",
   "supabase",
@@ -63,5 +63,6 @@
   "terraform",
   "vault",
   "browser-use",
-  "sanity"
+  "sanity",
+  "okahu"
 ]
