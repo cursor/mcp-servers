@@ -2,11 +2,14 @@
   "name": "Semgrep",
   "description": "Scan code for security vulnerabilities.",
   "transport": [
-    "sse"
+    "stdio"
   ],
   "icon": "./icon.svg",
   "oauth": false,
   "config": {
-    "url": "https://mcp.semgrep.ai/mcp"
+    "command": "semgrep",
+    "args": [
+      "mcp"
+    ]
   }
 }
