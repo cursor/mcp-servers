@@ -9,6 +9,6 @@
   "domains": ["linear.app"],
   "oauth": true,
   "config": {
-    "url": "https://mcp.linear.app/sse"
+    "url": "https://mcp.linear.app/mcp"
   }
 }
