@@ -1,0 +1,16 @@
+{
+  "name": "Checkmarx",
+  "description": "Secure gateway bridging AI-powered development assistants with the Checkmarx One security platform.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "docs": "https://docs.checkmarx.com/en/34965-405960-checkmarx-one-developer-assist.html",
+  "config": {
+    "url": "https://{env:BASE_URL}/api/security-mcp/mcp",
+    "env": {
+      "BASE_URL": "<tenant base uri>"
+    }
+  }
+}
