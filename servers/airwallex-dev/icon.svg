@@ -1,0 +1,38 @@
+<svg version="1.1" id="Layer_1" xmlns:x="ns_extend;" xmlns:i="ns_ai;" xmlns:graph="ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120.1 79.8" style="enable-background:new 0 0 120.1 79.8;" xml:space="preserve">
+ <style type="text/css">
+  .st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+ </style>
+ <metadata>
+  <sfw xmlns="ns_sfw;">
+   <slices>
+   </slices>
+   <sliceSourceBounds bottomLeftOrigin="true" height="79.8" width="120.1" x="52.7" y="51.4">
+   </sliceSourceBounds>
+  </sfw>
+ </metadata>
+ <g>
+  <g>
+   <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="42.9557" x2="120.102" y2="42.9557" gradientTransform="matrix(1 0 0 -1 0 82.8742)">
+    <stop offset="0" style="stop-color:#EF4749">
+    </stop>
+    <stop offset="1" style="stop-color:#F68D41">
+    </stop>
+   </linearGradient>
+   <path class="st0" d="M115.5,31.4c-4.3-4.2-10.3-5.4-15.8-3.1L74.9,38.4l-27-32.3C44,1.4,38-0.8,32,0.2c-6,1.1-10.9,5.1-13,10.9
+			L0.9,59.9c-2.4,6.4-0.1,13.7,5.7,17.5c4.1,2.7,9.3,3,13.8,1.2l24.5-10c4.1-1.7,6.4-6.3,5-10.5c-1.5-4.6-6.6-7-11-5.2l-18.6,7.7
+			c-0.8,0.3-1.7-0.5-1.4-1.3L34.2,18c0.3-0.7,1.3-0.9,1.8-0.3l47,56.2c3.2,3.8,7.8,5.9,12.6,5.9c1.1,0,2.1-0.1,3.2-0.3
+			c5.8-1.1,10.5-5.4,12.5-11l7.8-21.3C121.2,41.6,119.8,35.5,115.5,31.4z M101.2,47.6l-5.1,13.8c-0.3,0.8-1.3,0.9-1.8,0.3l-8.2-9.8
+			l13.7-5.6C100.7,45.9,101.6,46.7,101.2,47.6z">
+   </path>
+   <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="103.5402" y1="41.4371" x2="103.5402" y2="41.4371" gradientTransform="matrix(1 0 0 -1 0 82.8742)">
+    <stop offset="0" style="stop-color:#EF4749">
+    </stop>
+    <stop offset="1" style="stop-color:#F68D41">
+    </stop>
+   </linearGradient>
+   <path class="st1" d="M103.5,41.4L103.5,41.4L103.5,41.4z">
+   </path>
+  </g>
+ </g>
+</svg>
