@@ -63,5 +63,6 @@
   "terraform",
   "vault",
   "browser-use",
-  "sanity"
+  "sanity",
+  "checkmarx"
 ]
