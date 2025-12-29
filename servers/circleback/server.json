@@ -1,0 +1,17 @@
+{
+  "name": "Circleback",
+  "description": "Search and access context from meetings.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["circleback.ai"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "command": "npx",
+    "args": [
+      "mcp-remote",
+      "https://app.circleback.ai/api/mcp"
+    ]
+  }
+}
