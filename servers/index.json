@@ -19,6 +19,7 @@
   "mongodb",
   "dbt-labs",
   "atlassian",
+  "circleback",
   "duckdb",
   "braintrust",
   "browserbase",
