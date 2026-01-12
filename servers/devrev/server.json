@@ -1,0 +1,13 @@
+{
+    "name": "DevRev",
+    "description": "The DevRev MCP server connects your IDE to DevRev's work management platform, enabling AI assistants to interact with your DevRev workspace directly from your development environment.",
+    "transport": [
+        "http"
+    ],
+    "icon": "./icon.svg",
+    "oauth": true,
+    "config": {
+        "url": "https://api.devrev.ai/mcp/v1"
+    },
+    "documentation": "https://devrev.ai/docs/product/remote-mcp"
+}
