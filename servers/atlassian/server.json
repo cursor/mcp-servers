@@ -11,7 +11,7 @@
     "command": "npx",
     "args": [
       "mcp-remote",
-      "https://mcp.atlassian.com/v1/sse"
+      "https://mcp.atlassian.com/v1/mcp"
     ]
   }
 }
