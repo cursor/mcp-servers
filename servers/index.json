@@ -1,10 +1,11 @@
 [
+  "github",
   "notion",
   "figma",
   "context7",
   "linear",
   "playwright",
-  "shadcn/ui",
+  "shadcn",
   "sentry",
   "salesforce-dx",
   "supabase",
