@@ -5,13 +5,8 @@
     "sse"
   ],
   "icon": "./icon.svg",
-  "oauth": false,
+  "oauth": true,
   "config": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "mcp-remote",
-      "https://mcp.neon.tech/mcp"
-    ]
+    "url": "https://mcp.neon.tech/mcp"
   }
 }

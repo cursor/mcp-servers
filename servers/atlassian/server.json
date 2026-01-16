@@ -6,12 +6,8 @@
   ],
   "domains": ["atlassian.com"],
   "icon": "./icon.svg",
-  "oauth": false,
+  "oauth": true,
   "config": {
-    "command": "npx",
-    "args": [
-      "mcp-remote",
-      "https://mcp.atlassian.com/v1/sse"
-    ]
+    "url": "https://mcp.atlassian.com/v1/sse"
   }
 }
