@@ -1,0 +1,15 @@
+{
+    "name": "Okahu",
+    "description": "Access to traces and debug your AI agent apps",
+    "transport": [
+      "https"
+    ],
+    "icon": "./icon.svg",
+    "oauth": false,
+    "config": {
+      "url": "https://mcp.okahu.co/mcp",
+      "headers": {
+        "x-api-key": "<OKAHU_API_KEY>"
+      }
+    }
+  }
