@@ -1,0 +1,21 @@
+{
+  "name": "Defang",
+  "description": "Deploy your project to your cloud with Defang, without ever leaving your integrated development environment.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": [
+		  "-y",
+      "defang",
+      "mcp",
+      "serve",
+      "--client=cursor"
+    ]
+  },
+  "documentation": "https://docs.defang.io/docs/concepts/mcp"
+}
+
