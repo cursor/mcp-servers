@@ -1,0 +1,21 @@
+{
+  "name": "Airwallex Developer MCP",
+  "description": "Tools to search Airwallex docs and interact with the Airwallex sandbox environment while integrating with Airwallex APIs.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "docs": "https://www.airwallex.com/docs/developer-tools/ai/developer-mcp",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@airwallex/developer-mcp@latest"
+    ],
+    "env": {
+      "AIRWALLEX_SANDBOX_CLIENT_ID": "",
+      "AIRWALLEX_SANDBOX_API_KEY": ""
+    }
+  }
+}

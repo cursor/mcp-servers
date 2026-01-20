@@ -64,5 +64,6 @@
   "terraform",
   "vault",
   "browser-use",
-  "sanity"
+  "sanity",
+  "airwallex-dev"
 ]
