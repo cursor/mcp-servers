@@ -1,0 +1,12 @@
+{
+  "name": "Windsor.ai",
+  "description": "AI-powered insights from 325+ integrated marketing, sales, and customer data sources.",
+  "transport": ["sse"],
+  "icon": "./icon.svg",
+  "domains": ["windsor.ai"],
+  "oauth": true,
+  "docs": "https://windsor.ai/documentation/windsor-mcp/",
+  "config": {
+    "url": "https://mcp.windsor.ai/sse"
+  }
+}
