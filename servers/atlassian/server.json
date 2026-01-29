@@ -8,6 +8,6 @@
   "icon": "./icon.svg",
   "oauth": true,
   "config": {
-    "url": "https://mcp.atlassian.com/v1/sse"
+    "url": "https://mcp.atlassian.com/v1/mcp"
   }
 }
