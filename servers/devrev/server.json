@@ -1,0 +1,13 @@
+{
+  "name": "DevRev",
+  "description": "Work item management for development teams.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["devrev.ai"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://api.devrev.ai/mcp/v1"
+  }
+}

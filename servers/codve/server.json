@@ -1,0 +1,20 @@
+{
+  "name": "Codve",
+  "description": "Logic-based code verification with confidence scores.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@codve/mcp-server"
+    ],
+    "env": {
+      "CODVE_API_TOKEN": "",
+      "CODVE_BYOK_PROVIDER": "openai",
+      "CODVE_BYOK_MODEL": "gpt-4o"
+    }
+  }
+}

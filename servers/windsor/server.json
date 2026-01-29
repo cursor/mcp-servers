@@ -1,0 +1,15 @@
+{
+  "name": "Windsor.ai",
+  "description": "Query analytics data across marketing platforms.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["windsor.ai"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://mcp.windsor.ai",
+    "headers": {
+      "Authorization": "Bearer API_ACCESS_TOKEN"
+    }
+  }
+}

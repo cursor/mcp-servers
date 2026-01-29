@@ -1,0 +1,18 @@
+{
+  "name": "DryRun Security",
+  "description": "Security analysis insights and trends.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote",
+      "https://insights-mcp.dryrun.security/insights/mcp",
+      "--transport",
+      "http-only"
+    ]
+  }
+}

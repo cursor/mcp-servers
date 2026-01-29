@@ -1,0 +1,16 @@
+{
+  "name": "Angular",
+  "description": "Angular framework documentation and examples.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@angular/cli",
+      "mcp"
+    ]
+  }
+}

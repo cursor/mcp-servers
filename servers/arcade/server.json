@@ -1,0 +1,13 @@
+{
+  "name": "Arcade",
+  "description": "Create and manage MCP gateways connecting 100+ integrations.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["arcade.dev"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://ctl.arcade.dev/mcp"
+  }
+}

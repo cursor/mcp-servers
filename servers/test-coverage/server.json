@@ -1,0 +1,15 @@
+{
+  "name": "Test Coverage",
+  "description": "Enable agents to code with test coverage awareness.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "test-coverage-mcp"
+    ]
+  }
+}

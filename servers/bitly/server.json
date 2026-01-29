@@ -1,0 +1,20 @@
+{
+  "name": "Bitly",
+  "description": "URL shortening and link management.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "mcp-remote",
+      "https://api-ssl.bitly.com/v4/mcp",
+      "--header",
+      "Authorization: Bearer ${AUTH_TOKEN}"
+    ],
+    "env": {
+      "AUTH_TOKEN": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Elasticsearch",
+  "description": "Query logs and data from the ELK stack.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "mcp-remote",
+      "${KIBANA_URL}/api/agent_builder/mcp",
+      "--header",
+      "Authorization:${AUTH_HEADER}"
+    ],
+    "env": {
+      "KIBANA_URL": "",
+      "AUTH_HEADER": ""
+    }
+  }
+}

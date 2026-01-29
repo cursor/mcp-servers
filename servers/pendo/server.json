@@ -1,0 +1,13 @@
+{
+  "name": "Pendo",
+  "description": "Product analytics and user behavior insights.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["pendo.io"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://app.pendo.io/mcp/v0/shttp"
+  }
+}

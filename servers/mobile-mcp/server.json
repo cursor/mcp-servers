@@ -1,0 +1,15 @@
+{
+  "name": "Mobile MCP",
+  "description": "Mobile development and automation for iOS and Android.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mobilenext/mobile-mcp@latest"
+    ]
+  }
+}

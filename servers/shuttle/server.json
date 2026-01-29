@@ -1,0 +1,15 @@
+{
+  "name": "Shuttle",
+  "description": "Deploy Rust applications to the cloud.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "shuttle",
+    "args": [
+      "mcp",
+      "start"
+    ]
+  }
+}

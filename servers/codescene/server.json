@@ -1,0 +1,22 @@
+{
+  "name": "CodeScene",
+  "description": "Code health insights and technical debt analysis.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "docker",
+    "args": [
+      "run",
+      "-i",
+      "--rm",
+      "-e",
+      "CS_ACCESS_TOKEN",
+      "codescene/codescene-mcp"
+    ],
+    "env": {
+      "CS_ACCESS_TOKEN": ""
+    }
+  }
+}

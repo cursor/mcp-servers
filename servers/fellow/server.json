@@ -1,0 +1,13 @@
+{
+  "name": "Fellow",
+  "description": "AI meeting notes, transcripts, and action items.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["fellow.app"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://fellow.app/mcp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Driflyte",
+  "description": "Topic-specific knowledge from indexed web pages.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@driflyte/mcp-server"
+    ]
+  }
+}

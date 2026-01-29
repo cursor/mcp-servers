@@ -1,0 +1,13 @@
+{
+  "name": "Customer.io",
+  "description": "Manage segments, users, and marketing automation.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["customer.io"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.customer.io/mcp"
+  }
+}

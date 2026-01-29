@@ -1,0 +1,15 @@
+{
+  "name": "Bitrise",
+  "description": "Mobile CI/CD and build management.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["bitrise.io"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://mcp.bitrise.io",
+    "headers": {
+      "Authorization": "Bearer PAT"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hex",
+  "description": "Data analytics platform for insights and exploration.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["hex.tech"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://app.hex.tech/mcp"
+  }
+}

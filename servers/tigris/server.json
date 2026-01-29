@@ -1,0 +1,13 @@
+{
+  "name": "Tigris",
+  "description": "S3-compatible object storage management.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["storage.dev"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.storage.dev/mcp"
+  }
+}

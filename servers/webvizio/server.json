@@ -1,0 +1,18 @@
+{
+  "name": "Webvizio",
+  "description": "Bug feedback with screenshots and browser logs.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@webvizio/mcp-server"
+    ],
+    "env": {
+      "WEBVIZIO_API_KEY": ""
+    }
+  }
+}

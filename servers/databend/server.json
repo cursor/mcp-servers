@@ -1,0 +1,20 @@
+{
+  "name": "Databend",
+  "description": "AI-native cloud data warehouse analytics.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "uv",
+    "args": [
+      "tool",
+      "run",
+      "mcp-databend"
+    ],
+    "env": {
+      "DATABEND_DSN": "",
+      "SAFE_MODE": "false"
+    }
+  }
+}

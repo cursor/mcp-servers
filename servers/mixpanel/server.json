@@ -1,0 +1,17 @@
+{
+  "name": "Mixpanel",
+  "description": "Product analytics through natural language queries.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote",
+      "https://mcp.mixpanel.com/mcp",
+      "--allow-http"
+    ]
+  }
+}

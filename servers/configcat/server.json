@@ -1,0 +1,19 @@
+{
+  "name": "ConfigCat",
+  "description": "Feature flag management for teams.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@configcat/mcp-server"
+    ],
+    "env": {
+      "CONFIGCAT_API_USER": "",
+      "CONFIGCAT_API_PASS": ""
+    }
+  }
+}

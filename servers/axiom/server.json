@@ -1,0 +1,13 @@
+{
+  "name": "Axiom",
+  "description": "Log analytics, monitoring, and APL queries.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["axiom.co"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.axiom.co/mcp"
+  }
+}

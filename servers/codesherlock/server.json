@@ -1,0 +1,18 @@
+{
+  "name": "CodeSherlock",
+  "description": "AI code analysis for security, quality, and compliance checks.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@codesherlock/codesherlock-mcp-server"
+    ],
+    "env": {
+      "MCP_API_KEY": ""
+    }
+  }
+}

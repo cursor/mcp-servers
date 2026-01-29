@@ -1,0 +1,16 @@
+{
+  "name": "Luciq",
+  "description": "Query crash reports and observability data from your IDE.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["luciq.ai"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://api.instabug.com/api/mcp",
+    "headers": {
+      "Email": "",
+      "Token": ""
+    }
+  }
+}

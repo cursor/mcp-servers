@@ -1,0 +1,18 @@
+{
+  "name": "Sidemail",
+  "description": "Send transactional emails and manage email workflows.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@sidemail/mcp"
+    ],
+    "env": {
+      "SIDEMAIL_API_KEY": ""
+    }
+  }
+}

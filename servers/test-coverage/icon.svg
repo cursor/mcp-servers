@@ -1,0 +1,32 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Test coverage icon">
+  <!-- Background -->
+  <rect x="8" y="8" width="240" height="240" rx="28" fill="currentColor"/>
+  <rect x="8" y="8" width="240" height="240" rx="28" fill="currentColor" opacity="0.2"/>
+  <rect x="8.5" y="8.5" width="239" height="239" rx="27.5" stroke="currentColor" stroke-width="1"/>
+
+  <!-- Coverage ring (track) -->
+  <circle cx="128" cy="128" r="86" stroke="currentColor" stroke-width="16" stroke-linecap="round" fill="currentColor"/>
+
+  <!-- Coverage ring (progress ~78%) -->
+  <!-- Start at top (-90deg), end at ~191deg -->
+  <path d="M128 42 A86 86 0 1 1 43.6 111.6" stroke="currentColor" stroke-width="16" stroke-linecap="round" fill="currentColor"/>
+
+  <!-- Center checkmark -->
+  <path d="M97 128 l22 22 42-50" fill="currentColor" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Tiny caption dot (hint of metrics) -->
+  <circle cx="206" cy="206" r="6" fill="currentColor" opacity="0.9"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="covGrad" x1="128" y1="42" x2="128" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="currentColor"/>
+      <stop offset="70%" stop-color="currentColor"/>
+      <stop offset="100%" stop-color="currentColor"/>
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(64 64) rotate(45) scale(180)">
+      <stop stop-color="currentColor"/>
+      <stop offset="1" stop-color="currentColor"/>
+    </radialGradient>
+  </defs>
+</svg>

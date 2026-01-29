@@ -1,0 +1,18 @@
+{
+  "name": "Defang",
+  "description": "Deploy apps to AWS, GCP, and DigitalOcean from Docker Compose.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "defang",
+      "mcp",
+      "serve",
+      "--client=cursor"
+    ]
+  }
+}

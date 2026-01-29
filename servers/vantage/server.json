@@ -1,0 +1,13 @@
+{
+  "name": "Vantage",
+  "description": "Cloud cost management and FinOps insights.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["vantage.sh"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.vantage.sh/mcp"
+  }
+}

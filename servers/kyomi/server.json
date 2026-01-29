@@ -1,0 +1,13 @@
+{
+  "name": "Kyomi",
+  "description": "Query data warehouses with natural language and institutional knowledge.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["kyomi.ai"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://app.kyomi.ai/mcp"
+  }
+}

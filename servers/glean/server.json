@@ -1,0 +1,12 @@
+{
+  "name": "Glean",
+  "description": "Enterprise knowledge search and context.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["glean.com"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://{instance}-be.glean.com/mcp/{server-name}"
+  }
+}

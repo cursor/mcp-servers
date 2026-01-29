@@ -1,0 +1,13 @@
+{
+  "name": "Embrace",
+  "description": "Mobile app performance monitoring and crash analytics.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["embrace.io"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.embrace.io/mcp"
+  }
+}

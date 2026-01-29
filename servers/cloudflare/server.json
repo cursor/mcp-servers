@@ -1,0 +1,12 @@
+{
+  "name": "Cloudflare",
+  "description": "Cloudflare documentation and reference.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["cloudflare.com"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://docs.mcp.cloudflare.com/mcp"
+  }
+}

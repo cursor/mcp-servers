@@ -1,0 +1,21 @@
+{
+  "name": "Harness",
+  "description": "CI/CD and software delivery platform.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@harness/mcp-server",
+      "stdio"
+    ],
+    "env": {
+      "HARNESS_API_KEY": "",
+      "HARNESS_DEFAULT_ORG_ID": "",
+      "HARNESS_DEFAULT_PROJECT_ID": ""
+    }
+  }
+}

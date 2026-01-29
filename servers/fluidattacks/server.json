@@ -1,0 +1,15 @@
+{
+  "name": "Fluid Attacks",
+  "description": "Security vulnerability scanning and analysis.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["fluidattacks.com"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://app.fluidattacks.com/mcp/messages/",
+    "headers": {
+      "Authorization": "Bearer API_TOKEN"
+    }
+  }
+}

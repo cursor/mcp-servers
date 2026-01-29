@@ -1,0 +1,21 @@
+{
+  "name": "OX Security",
+  "description": "Security platform for AI agent integration.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote@0.1.18",
+      "https://api.cloud.ox.security/api/mcp",
+      "--header",
+      "Authorization:${AUTH_TOKEN}"
+    ],
+    "env": {
+      "AUTH_TOKEN": ""
+    }
+  }
+}
