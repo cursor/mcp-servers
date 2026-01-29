@@ -1,0 +1,12 @@
+{
+  "name": "Statsig",
+  "description": "Feature flags and experimentation platform.",
+  "transport": [
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://api.statsig.com/v1/mcp"
+  }
+}
