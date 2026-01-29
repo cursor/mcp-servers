@@ -2,14 +2,15 @@
   "name": "CoreStory",
   "description": "Access PRDs, technical specs, and project context.",
   "transport": [
-    "sse"
+    "http"
   ],
-  "domains": ["crowdbotics.com"],
+  "domains": ["corestory.ai"],
   "icon": "./icon.svg",
+  "oauth": false,
   "config": {
-    "url": "https://c2s.crowdbotics.com/mcp",
+    "url": "https://c2s.corestory.ai/mcp",
     "headers": {
-      "Authorization": "Bearer TOKEN"
+      "Authorization": "Bearer <CORESTORY_TOKEN>"
     }
   }
 }
