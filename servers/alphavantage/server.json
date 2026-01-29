@@ -1,0 +1,16 @@
+{
+  "name": "Alpha Vantage",
+  "description": "Financial data API for stocks, forex, crypto, and economic indicators.",
+  "transport": [
+    "http"
+  ],
+  "domains": ["alphavantage.co"],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "url": "https://mcp.alphavantage.co/mcp",
+    "headers": {
+      "apikey": "<ALPHAVANTAGE_API_KEY>"
+    }
+  }
+}

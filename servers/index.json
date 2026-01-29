@@ -142,5 +142,8 @@
   "dryrun",
   "ox",
   "zapier",
-  "okahu"
+  "okahu",
+  "scalekit",
+  "chakra-ui",
+  "alphavantage"
 ]

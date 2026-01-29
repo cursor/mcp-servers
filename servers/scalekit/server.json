@@ -1,0 +1,13 @@
+{
+  "name": "Scalekit",
+  "description": "Auth stack for AI applications. Manage environments and connections.",
+  "transport": [
+    "http"
+  ],
+  "domains": ["scalekit.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.scalekit.com/"
+  }
+}

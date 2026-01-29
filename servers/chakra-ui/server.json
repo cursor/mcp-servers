@@ -1,0 +1,14 @@
+{
+  "name": "Chakra UI",
+  "description": "Access Chakra UI component library, design tokens, and migration guidance.",
+  "transport": [
+    "stdio"
+  ],
+  "domains": ["chakra-ui.com"],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "config": {
+    "command": "npx",
+    "args": ["-y", "@chakra-ui/react-mcp"]
+  }
+}
