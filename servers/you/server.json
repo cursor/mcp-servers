@@ -1,0 +1,15 @@
+{
+  "name": "You.com",
+  "description": "AI-powered web search and research.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["you.com"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://api.you.com/mcp",
+    "headers": {
+      "Authorization": "Bearer API_KEY"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Circleback",
+  "description": "Search meeting notes and transcripts for dev context.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote",
+      "https://app.circleback.ai/api/mcp"
+    ]
+  }
+}

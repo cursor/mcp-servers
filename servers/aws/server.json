@@ -1,0 +1,17 @@
+{
+  "name": "AWS",
+  "description": "Access AWS services through natural language.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "uvx",
+    "args": [
+      "mcp-proxy-for-aws@latest",
+      "https://aws-mcp.us-east-1.api.aws/mcp",
+      "--metadata",
+      "AWS_REGION=us-west-2"
+    ]
+  }
+}

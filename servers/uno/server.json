@@ -1,0 +1,12 @@
+{
+  "name": "Uno Platform",
+  "description": "Cross-platform .NET application development.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["platform.uno"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://mcp.platform.uno/v1"
+  }
+}

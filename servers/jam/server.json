@@ -1,0 +1,13 @@
+{
+  "name": "Jam",
+  "description": "Screen recorder with auto context for debugging.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["jam.dev"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.jam.dev/mcp"
+  }
+}

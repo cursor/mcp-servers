@@ -1,0 +1,16 @@
+{
+  "name": "Firebase",
+  "description": "Manage Firebase projects, Auth, Firestore, and more.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "firebase-tools@latest",
+      "mcp"
+    ]
+  }
+}

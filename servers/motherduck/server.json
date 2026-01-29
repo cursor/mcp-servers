@@ -1,0 +1,13 @@
+{
+  "name": "MotherDuck",
+  "description": "Query and explore MotherDuck cloud databases.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["motherduck.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://api.motherduck.com/mcp"
+  }
+}

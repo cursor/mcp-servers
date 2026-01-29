@@ -1,0 +1,13 @@
+{
+  "name": "Cloudinary",
+  "description": "Media asset management and transformation.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["cloudinary.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://asset-management.mcp.cloudinary.com/sse"
+  }
+}

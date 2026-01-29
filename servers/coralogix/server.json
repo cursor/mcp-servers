@@ -1,0 +1,21 @@
+{
+  "name": "Coralogix",
+  "description": "Observability platform for logs, metrics, and traces.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "mcp-remote",
+      "${CORALOGIX_MCP_ENDPOINT}",
+      "--header",
+      "Authorization:${CORALOGIX_API_KEY}"
+    ],
+    "env": {
+      "CORALOGIX_MCP_ENDPOINT": "",
+      "CORALOGIX_API_KEY": ""
+    }
+  }
+}

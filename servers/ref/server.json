@@ -1,0 +1,13 @@
+{
+  "name": "Ref",
+  "description": "Token-efficient documentation search.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["ref.tools"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://api.ref.tools/mcp"
+  }
+}

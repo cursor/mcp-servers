@@ -1,0 +1,20 @@
+{
+  "name": "SafeDep Vet",
+  "description": "Vet open source packages for security issues.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "docker",
+    "args": [
+      "run",
+      "--rm",
+      "-i",
+      "ghcr.io/safedep/vet:latest",
+      "-s",
+      "server",
+      "mcp"
+    ]
+  }
+}

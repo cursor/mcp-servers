@@ -1,0 +1,13 @@
+{
+  "name": "Mux",
+  "description": "Video platform for uploads, streaming, and analytics.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["mux.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.mux.com"
+  }
+}

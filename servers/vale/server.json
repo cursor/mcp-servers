@@ -1,0 +1,11 @@
+{
+  "name": "Vale",
+  "description": "Style and grammar linting for documentation.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "vale-cli"
+  }
+}

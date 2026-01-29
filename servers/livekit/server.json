@@ -1,0 +1,12 @@
+{
+  "name": "LiveKit",
+  "description": "Real-time communication documentation and examples.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["livekit.io"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://docs.livekit.io/mcp"
+  }
+}

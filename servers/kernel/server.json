@@ -1,0 +1,13 @@
+{
+  "name": "Kernel",
+  "description": "Fast infrastructure for agents to access the internet.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["onkernel.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.onkernel.com/mcp"
+  }
+}

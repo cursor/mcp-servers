@@ -1,0 +1,19 @@
+{
+  "name": "Unleash",
+  "description": "Open source feature flags management.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@unleash/mcp@latest"
+    ],
+    "env": {
+      "UNLEASH_BASE_URL": "",
+      "UNLEASH_PAT": ""
+    }
+  }
+}

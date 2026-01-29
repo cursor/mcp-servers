@@ -1,0 +1,18 @@
+{
+  "name": "DBHub",
+  "description": "Universal database connector for MySQL, PostgreSQL, SQL Server.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "@bytebase/dbhub",
+      "--transport",
+      "stdio",
+      "--dsn",
+      "postgres://user:password@localhost:5432/dbname"
+    ]
+  }
+}

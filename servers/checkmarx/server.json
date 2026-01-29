@@ -1,0 +1,13 @@
+{
+  "name": "Checkmarx",
+  "description": "Application security testing and vulnerability scanning.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["checkmarx.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://{tenant}/api/security-mcp/mcp"
+  }
+}

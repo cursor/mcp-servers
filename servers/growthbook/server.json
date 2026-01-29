@@ -1,0 +1,21 @@
+{
+  "name": "GrowthBook",
+  "description": "Feature flags and A/B testing platform.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@growthbook/mcp@latest"
+    ],
+    "env": {
+      "GB_API_KEY": "",
+      "GB_API_URL": "",
+      "GB_APP_ORIGIN": "",
+      "GB_EMAIL": ""
+    }
+  }
+}

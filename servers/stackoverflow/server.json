@@ -1,0 +1,15 @@
+{
+  "name": "Stack Overflow",
+  "description": "Access trusted technical Q&A from Stack Overflow.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "mcp-remote",
+      "mcp.stackoverflow.com"
+    ]
+  }
+}

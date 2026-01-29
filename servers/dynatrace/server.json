@@ -1,0 +1,16 @@
+{
+  "name": "Dynatrace",
+  "description": "Enterprise observability platform for real-time monitoring and AI-powered insights.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["dynatrace.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://{environmentId}.apps.dynatrace.com/platform-reserved/mcp-gateway/v0.1/servers/dynatrace-mcp/mcp",
+    "headers": {
+      "Authorization": "Bearer DYNATRACE_PLATFORM_TOKEN"
+    }
+  }
+}

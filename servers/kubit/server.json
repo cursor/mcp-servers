@@ -1,0 +1,13 @@
+{
+  "name": "Kubit",
+  "description": "Analytics platform with natural language queries.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["kubit.ai"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.kubit.ai/mcp"
+  }
+}

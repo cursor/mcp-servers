@@ -1,0 +1,12 @@
+{
+  "name": "SearchAPI",
+  "description": "Real-time search engine API for AI applications.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["searchapi.io"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://www.searchapi.io/mcp?token=<your_integration_token>"
+  }
+}

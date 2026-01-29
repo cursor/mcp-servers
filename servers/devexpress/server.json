@@ -1,0 +1,12 @@
+{
+  "name": "DevExpress",
+  "description": "DevExpress component library documentation.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["devexpress.com"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://api.devexpress.com/mcp/docs"
+  }
+}

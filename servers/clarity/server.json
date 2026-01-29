@@ -1,0 +1,19 @@
+{
+  "name": "Clarity",
+  "description": "Microsoft user behavior analytics.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@microsoft/clarity-mcp-server@latest"
+    ],
+    "env": {
+      "CLARITY_API_TOKEN": "",
+      "CLARITY_PROJECT_ID": ""
+    }
+  }
+}

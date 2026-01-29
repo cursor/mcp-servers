@@ -1,0 +1,15 @@
+{
+  "name": "Builder.io",
+  "description": "Headless CMS content management.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["builder.io"],
+  "icon": "./icon.svg",
+  "config": {
+    "url": "https://cdn.builder.io/api/v1/mcp/builder-content",
+    "headers": {
+      "Authorization": "Bearer API_KEY"
+    }
+  }
+}

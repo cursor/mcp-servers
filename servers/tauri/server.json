@@ -1,0 +1,15 @@
+{
+  "name": "Tauri",
+  "description": "Build and debug Tauri desktop/mobile apps with screenshots and DOM state.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@hypothesi/tauri-mcp-server"
+    ]
+  }
+}

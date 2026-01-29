@@ -1,0 +1,13 @@
+{
+  "name": "alphaXiv",
+  "description": "Search ML research papers and analyze PDFs.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["alphaxiv.org"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://api.alphaxiv.org/mcp/v1"
+  }
+}
