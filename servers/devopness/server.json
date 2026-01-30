@@ -2,7 +2,7 @@
   "name": "Devopness",
   "description": "DevOps automation for cloud infrastructure.",
   "transport": [
-    "sse"
+    "streamable-http"
   ],
   "domains": ["devopness.com"],
   "icon": "./icon.svg",
