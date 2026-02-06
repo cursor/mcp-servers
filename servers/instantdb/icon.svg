@@ -1,3 +1,6 @@
-<svg viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-<rect x="97.0973" y="91.3297" width="140" height="330" fill="currentColor"></rect>
+<svg viewBox="0 0 200 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="100" cy="55" rx="60" ry="18" opacity="0.4" />
+  <rect x="40" y="55" width="120" height="80" opacity="0.2" />
+  <ellipse cx="100" cy="135" rx="60" ry="18" opacity="0.5" />
+  <path d="M120 22L140 52H126L136 82L112 52H126L120 22Z" />
 </svg>
