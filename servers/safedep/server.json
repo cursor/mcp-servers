@@ -1,20 +1,13 @@
 {
-  "name": "SafeDep Vet",
-  "description": "Vet open source packages for security issues.",
+  "name": "SafeDep",
+  "description": "Real-time malicious package protection for AI coding agents",
   "transport": [
-    "stdio"
+    "streamableHttp"
   ],
   "icon": "./icon.svg",
+  "oauth": false,
+  "docs": "https://docs.safedep.io/apps/mcp/overview",
   "config": {
-    "command": "docker",
-    "args": [
-      "run",
-      "--rm",
-      "-i",
-      "ghcr.io/safedep/vet:latest",
-      "-s",
-      "server",
-      "mcp"
-    ]
+    "url": "https://mcp.safedep.io/model-context-protocol/threats/v1/mcp"
   }
 }
