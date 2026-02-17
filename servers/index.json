@@ -144,5 +144,6 @@
   "okahu",
   "scalekit",
   "chakra-ui",
-  "alphavantage"
+  "alphavantage",
+  "slack"
 ]
