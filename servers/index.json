@@ -1,5 +1,6 @@
 [
   "github",
+  "slack",
   "notion",
   "figma",
   "context7",
@@ -144,6 +145,5 @@
   "okahu",
   "scalekit",
   "chakra-ui",
-  "alphavantage",
-  "slack"
+  "alphavantage"
 ]
