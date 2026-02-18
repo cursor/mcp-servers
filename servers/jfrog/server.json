@@ -1,0 +1,13 @@
+{
+  "name": "JFrog",
+  "description": "Manage artifacts, packages, and security across the JFrog Platform.",
+  "transport": [
+    "http"
+  ],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "docs": "https://jfrog.com/help/r/jfrog-integrations-documentation/jfrog-mcp-server",
+  "config": {
+    "url": "https://your-jfrog-platform.jfrog.io/mcp"
+  }
+}
