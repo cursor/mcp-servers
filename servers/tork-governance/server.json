@@ -1,0 +1,20 @@
+{
+  "name": "Tork Governance",
+  "description": "AI agent governance middleware — PII detection (50+ types, 13 countries), policy enforcement, compliance receipts (HIPAA/GDPR/SOC 2/POPIA), kill switch, and human-in-the-loop approval gates. 48 governance tools.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "docs": "https://tork.network/docs",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@torknetwork/mcp-server@latest"
+    ],
+    "env": {
+      "TORK_API_KEY": ""
+    }
+  }
+}
