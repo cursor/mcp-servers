@@ -9,7 +9,7 @@
       }
 
       .st2 {
-        fill: currentColor;
+        fill: none;
         fill-rule: evenodd;
       }
 
