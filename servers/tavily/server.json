@@ -1,0 +1,16 @@
+{
+  "name": "Tavily",
+  "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote",
+      "https://mcp.tavily.com/mcp"
+    ]
+  }
+}
