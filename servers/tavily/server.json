@@ -10,7 +10,7 @@
     "args": [
       "-y",
       "mcp-remote",
-      "https://mcp.tavily.com/mcp"
+      "https://mcp.tavily.com/mcp/?tavilyApiKey=<your-api-key"
     ]
   }
 }
