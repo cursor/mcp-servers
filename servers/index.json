@@ -146,5 +146,6 @@
   "scalekit",
   "chakra-ui",
   "alphavantage",
-  "amazon-devices-buildertools"
+  "amazon-devices-buildertools",
+  "airflow"
 ]
