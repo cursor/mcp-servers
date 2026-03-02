@@ -147,5 +147,6 @@
   "chakra-ui",
   "alphavantage",
   "amazon-devices-buildertools",
+  "tavily",
   "airflow"
 ]
