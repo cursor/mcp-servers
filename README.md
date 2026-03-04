@@ -1,6 +1,6 @@
 # MCP Servers
 
-A curated collection of Model Context Protocol (MCP) servers for various services and tools. 
+A curated collection of Model Context Protocol (MCP) servers for various services and tools.
 
 To add a server, see the [Contributing Guidelines](CONTRIBUTING.md).
 
