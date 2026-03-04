@@ -1,6 +1,6 @@
 {
   "name": "Luciq",
-  "description": "Query crash reports and observability data from your IDE.",
+  "description": "Mobile app debugging and observability data.",
   "transport": [
     "sse"
   ],
