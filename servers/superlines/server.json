@@ -1,0 +1,21 @@
+{
+  "name": "Superlines",
+  "description": "AI search analytics — track brand visibility, citations, and competitors across ChatGPT, Perplexity, Gemini, and more. 27 tools for analytics, audits, and content optimization.",
+  "transport": [
+    "stdio",
+    "sse"
+  ],
+  "icon": "./icon.svg",
+  "oauth": false,
+  "docs": "https://docs.superlines.io/mcp/overview",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@superlines/mcp-server"
+    ],
+    "env": {
+      "SUPERLINES_API_KEY": ""
+    }
+  }
+}
