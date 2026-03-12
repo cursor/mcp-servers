@@ -6,17 +6,10 @@
   ],
   "icon": "./icon.svg",
   "config": {
-    "command": "docker",
+    "command": "npx",
     "args": [
-      "run",
-      "-i",
-      "--rm",
-      "-e",
-      "CS_ACCESS_TOKEN",
-      "codescene/codescene-mcp"
-    ],
-    "env": {
-      "CS_ACCESS_TOKEN": ""
-    }
+      "-y",
+      "@codescene/codehealth-mcp"
+    ]
   }
 }
