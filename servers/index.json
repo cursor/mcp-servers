@@ -19,6 +19,7 @@
   "prisma",
   ["SAP", ["cap", "fiori", "mdk", "ui5"]],
   "mongodb",
+  "neo4j",
   "dbt-labs",
   "atlassian",
   "duckdb",
