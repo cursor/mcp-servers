@@ -1,0 +1,13 @@
+{
+  "name": "Trunk",
+  "description": "Flaky test detection, root cause analysis, and fix suggestions for development teams.",
+  "transport": [
+    "streamable-http"
+  ],
+  "icon": "./icon.svg",
+  "domains": ["trunk.io"],
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.trunk.io/mcp"
+  }
+}
