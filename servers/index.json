@@ -1,5 +1,6 @@
 [
   "github",
+  "slack",
   "notion",
   "figma",
   "context7",
@@ -130,7 +131,6 @@
   "svelte",
   "scout",
   "axiom",
-  "driflyte",
   "customer-io",
   "bitly",
   "devopness",
@@ -145,5 +145,8 @@
   "okahu",
   "scalekit",
   "chakra-ui",
-  "alphavantage"
+  "alphavantage",
+  "amazon-devices-buildertools",
+  "tavily",
+  "airflow"
 ]

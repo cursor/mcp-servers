@@ -1,0 +1,15 @@
+{
+  "name": "Amazon Devices Builder Tools",
+  "description": "Context and tools for developing and debugging apps for Amazon Device OS, including Vega OS.",
+  "transport": [
+    "stdio"
+  ],
+  "icon": "./icon.svg",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@amazon-devices/amazon-devices-buildertools-mcp@latest"
+    ]
+  }
+}

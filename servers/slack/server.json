@@ -1,0 +1,17 @@
+{
+  "name": "Slack",
+  "description": "Team communication and collaboration platform.",
+  "transport": [
+    "sse"
+  ],
+  "domains": ["slack.com"],
+  "icon": "./icon.svg",
+  "oauth": true,
+  "config": {
+    "url": "https://mcp.slack.com/mcp",
+    "auth": {
+      "CLIENT_ID": "3660753192626.8903469228982"
+    },
+    "headers": {}
+  }
+}
