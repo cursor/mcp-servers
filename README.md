@@ -157,6 +157,7 @@ To add a server, see the [Contributing Guidelines](CONTRIBUTING.md).
 | **Tavily** | Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs. | <a href="https://cursor.com/en/install-mcp?name=tavily&config=eyJjb21tYW5kIjoibnB4IC15IG1jcC1yZW1vdGUgaHR0cHM6Ly9tY3AudGF2aWx5LmNvbS9tY3AifQ%3D%3D" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
 | **Airflow** | Manage Apache Airflow DAGs, monitor runs, debug failures, and access Airflow's REST API. | <a href="https://cursor.com/en/install-mcp?name=airflow&config=eyJjb21tYW5kIjoidXZ4IGFzdHJvLWFpcmZsb3ctbWNwIC0tdHJhbnNwb3J0IHN0ZGlvIn0%3D" style="border: 1px solid rgba(128, 128, 128, 0.5); padding: 4px 8px; text-decoration: none; border-radius: 4px; font-size: 12px;">Install</a> |
 
+- [x402search](https://github.com/x402-index/x402search-mcp) - Search 14,000+ x402-enabled HTTP APIs. Agents pay $0.01 USDC per search via x402 protocol on Base mainnet. No API keys required. Available on npm and PyPI.
 ## Setup
 
 Each server has its own configuration requirements. Refer to the individual server documentation for specific setup instructions.
